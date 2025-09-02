@@ -1,0 +1,8 @@
+h1 {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: rgb(41, 100, 80);
+    border: 14px solid chocolate;
+    border-radius: 12px;
+    padding: 20px;
+}
