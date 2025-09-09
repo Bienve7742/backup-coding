@@ -1,0 +1,52 @@
+.typography {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #928787;
+    font-weight: lighter;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.skew,
+.rotate,
+.scale {
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    color: black;
+}
+
+.rotate {
+transform: rotate(20deg);
+}
+
+.skew {
+transform: skewX(50deg);
+}
+
+.scale {
+    transform: scaleX(2);
+}
+
+.textdec {
+    text-decoration: dotted;
+    text-transform: uppercase;
+}
+
+.shadows {
+    text-shadow: 3px 3px 3px blue;
+
+}
+
+.indents {
+    text-indent: 50px;
+
+}
+
+.boxshadows {
+    height: 100px;
+    width: 150px;
+    box-shadow: 2px 2px 5px rgb(49, 21, 99);
+
+}
