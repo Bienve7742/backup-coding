@@ -1,0 +1,27 @@
+input[type=text] {
+border: 3px springgreen;
+}
+input[type=date] {
+border: 3px royalblue;
+}
+
+ul > li {
+    color: peru;
+}
+
+h1 + p {
+    border-color: seagreen;
+}
+
+a:hover {
+    font-weight: bolder;
+    color: blueviolet;
+}
+li:nth-child(3) {
+    border-color: cadetblue;
+}
+
+.decorated::before {
+    content: "Wilting🥀Flower";
+    color: red;
+}
